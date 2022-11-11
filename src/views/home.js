@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -12,7 +13,9 @@ const Home = (props) => {
         <meta property="og:title" content="Decisive Well Lit Sheep" />
       </Helmet>
       <div className="home-container1 bg-blue-100"></div>
-      <button className="button">Button</button>
+      <Link to="/" className="home-navlink button">
+        Button
+      </Link>
     </div>
   )
 }

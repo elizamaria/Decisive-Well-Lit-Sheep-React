@@ -15,3 +15,6 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.home-navlink {
+  text-decoration: none;
+}
